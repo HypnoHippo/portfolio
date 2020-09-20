@@ -1,0 +1,29 @@
+body {
+  background-color: lightslategrey;
+}
+
+h1 {
+  border-style: inset;
+  border-color: #48D1CC;
+  background-color: #48D1CC;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+nav {
+  border-style: solid;
+  border-width: thin;
+  border-color: #48D1CC;
+  background-color: slategrey;
+}
+
+aside {
+  border-style: solid;
+  border-width: thin;
+  border-color: #48D1CC;
+  background-color: slategrey;
+  margin-left: 1100px;
+  display: block;
+}
