@@ -1,11 +1,12 @@
 body {
-  background-color: lightslategrey;
+  background-color: #232931;
+  color: #EEEEEE;
 }
 
 h1 {
-  border-style: inset;
-  border-color: #48D1CC;
-  background-color: #48D1CC;
+  border-style: solid;
+  border-color: #393E46;
+  background-color: #393E46;
   text-align: center;
   padding: 20px;
 }
@@ -15,15 +16,25 @@ h1 {
 nav {
   border-style: solid;
   border-width: thin;
-  border-color: #48D1CC;
-  background-color: slategrey;
+  border-color: #4ECCA3;
+  background-color: #393E46;
 }
 
 aside {
   border-style: solid;
   border-width: thin;
-  border-color: #48D1CC;
-  background-color: slategrey;
-  margin-left: 1100px;
+  border-color: #4ECCA3;
+  background-color: #393E46;
+  margin-left: 1150px;
   display: block;
+}
+
+a:link {
+  color: #4ECCA3;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #DE6B48;
+  text-decoration: none;
 }
