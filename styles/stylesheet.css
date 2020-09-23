@@ -31,7 +31,8 @@ aside {
   background-color: #393E46;
   position: absolute;
   right: 0;
-  margin: auto;
+  margin-right: 0.625rem;
+  padding: 0.5rem;
 }
 
 a:link {
