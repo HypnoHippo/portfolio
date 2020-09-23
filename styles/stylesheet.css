@@ -1,3 +1,8 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+} 
+
 body {
   background-color: #232931;
   color: #EEEEEE;
@@ -8,7 +13,7 @@ h1 {
   border-color: #393E46;
   background-color: #393E46;
   text-align: center;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 
@@ -25,8 +30,9 @@ aside {
   border-width: thin;
   border-color: #4ECCA3;
   background-color: #393E46;
-  margin-left: 1150px;
-  display: block;
+  position: absolute;
+  right: 0;
+  margin: auto;
 }
 
 a:link {
@@ -37,4 +43,12 @@ a:link {
 a:visited {
   color: #DE6B48;
   text-decoration: none;
+}
+
+.project {
+  border-style: solid;
+  border-width: thin;
+  border-color: #4ECCA3;
+  background-color: #393E46;
+  margin-right: 37.5rem;
 }
