@@ -69,3 +69,7 @@ footer {
   background-color: #393E46;
   padding: 0.625rem;
 }
+
+img {
+  max-width: 100%;
+}
