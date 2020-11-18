@@ -19,17 +19,6 @@ nav {
   background-color: #393E46;
 }
 
-aside {
-  border-style: solid;
-  border-width: thin;
-  border-color: #4ECCA3;
-  background-color: #393E46;
-  position: absolute;
-  right: 0;
-  margin-right: 0.625rem;
-  padding: 0.5rem;
-}
-
 a:link {
   color: #4ECCA3;
   text-decoration: none;
@@ -45,9 +34,7 @@ a:visited {
   border-width: thin;
   border-color: #4ECCA3;
   background-color: #393E46;
-  margin-right: 38rem;
-  margin-top: 0.625rem;
-  margin-bottom: 0.625rem;
+  margin: 0.625rem 38rem 0.625rem 0;
   padding: 0.625rem;
 }
 
@@ -75,4 +62,25 @@ h1, h2, h3, h4, h5, h6 {
 
 * {
   font-family: 'Karma', Georgia, serif;
+}
+
+#project-list {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#sidebar {
+  border-style: solid;
+  border-width: thin;
+  border-color: #4ECCA3;
+  background-color: #393E46;
+  padding: 0.5rem;
+  position: absolute;
+  right: 0;
+  margin: 0.625rem 0.625rem 0 0;
+}
+
+#project-header {
+  margin: 1.875rem 0 1.875rem 0;
 }
