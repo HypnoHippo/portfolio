@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+aside {
+  float: right;
+  margin: 6rem 10rem 6rem 3rem;
+  width: 22%;
+}
+
+section {
+  margin: 3rem 0;
+}
+
+footer {
+  padding: 7rem 0 5rem 0;
+  background-color: #444;
+  color: white;
+  text-align: center;
+  clear: both;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #444;
+  margin: 0;
+}
+
+header {
+  background-color: #8FBC8F;
+  color: white;
+  padding: 2rem 2rem 2rem 7rem;
+  clear: both;
+}
+
+#sidebar-cat {
+  margin-left: 0;
+}
+
+#tara {
+  width: 50%;
+  height: auto;
+}
+
+#tara-text {
+  margin-right: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 175%;
+}
+
+figcaption {
+  line-height: 175%;
+}
+
+a:link {
+  text-decoration: none;
+  color: skyblue;
+}
+
+a:visited {
+  text-decoration: none;
+  color: skyblue;
+}
+
+.footer-links {
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.footer-links li {
+  display: inline;
+  padding: .5rem;
+}
+
+.footer-text {
+  padding: 1rem;
+}
+
+.famous {
+  margin-left: 7rem;
+}
+
+nav {
+  background-color: #DCDCDC;
+  padding: 0.25rem 0.25rem 0.25rem 7rem;
+}

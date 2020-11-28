@@ -1,3 +1,11 @@
+* {
+  font-family: 'Karma', Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
 body {
   background-color: #232931;
   color: #EEEEEE;
@@ -19,6 +27,34 @@ nav {
   background-color: #393E46;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a:link {
+  display: inline-block;
+  color: #EEEEEE;
+  text-align: center;
+  padding: 0.875rem 1rem;
+  text-decoration: none;
+}
+
+nav li a:visited {
+  color: #EEEEEE;
+}
+
+nav li a:hover {
+  background-color: #4ECCA3;
+  color: #000000;
+}
+
 a:link {
   color: #4ECCA3;
   text-decoration: none;
@@ -36,6 +72,14 @@ a:visited {
   background-color: #393E46;
   margin: 0.625rem 38rem 0.625rem 0;
   padding: 0.625rem;
+  opacity: 0.8;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.project:hover {
+  opacity: 1;
 }
 
 footer {
@@ -56,12 +100,9 @@ img {
   max-width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', Helvetica, sans-serif;
-}
-
-* {
-  font-family: 'Karma', Georgia, serif;
+img:hover {
+  transition: all 1.5s ease;
+  transform: scale(1.2);
 }
 
 #project-list {
@@ -78,7 +119,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.5rem;
   position: absolute;
   right: 0;
-  margin: 0.625rem 0.625rem 0 0;
+  margin: 6.15rem 0.625rem 0 0;
+  transition: all 1s ease;
+}
+
+#sidebar:hover {
+  transform: scale(1.1);
 }
 
 #project-header {
