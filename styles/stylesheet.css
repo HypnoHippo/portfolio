@@ -171,3 +171,41 @@ img:hover {
 #project-header {
   margin: 1.875rem 0 1.875rem 0;
 }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: .5rem 0 1.5rem 1rem;
+}
+
+fieldset {
+  overflow: hidden;
+  border: none;
+}
+
+label {
+  margin-left: 1rem;
+}
+
+input[type="radio"] {
+  float: left;
+  clear: none;
+  margin: 0.125rem .25rem 0.125rem 0;
+}
+
+.inline {
+  float: left;
+  clear: none;
+  display: block;
+  padding-left: .25rem;
+}
+
+input[type="password"]:focus {
+  background-color: #4ECCA3;
+  border: thin solid #DE6B48;
+}
+ .center {
+   text-align: center;
+ }

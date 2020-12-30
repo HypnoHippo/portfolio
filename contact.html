@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karma:wght@500&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a73b68b7bf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <header id="main-header">
+    <a id="home-link" href="index.html"><h1 class="logo"><i class="fas fa-dice-d20"></i> My Portfolio Website <i class="fas fa-dice-d20"></i></h1></a>
+    <nav>
+      <div class="nav-buttons">
+        <a class="item1" href="index.html">Home</a>
+        <a class="item2" href="about-me.html">About Me</a>
+        <a class="item3" href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <h2 class="center">Contact Me</h2>
+
+    <form method="GET">
+
+      <label>Name:
+        <input type="text" name="contactName">
+      </label>
+
+      <label>Email:
+        <input type="email" name="contactEmail">
+      </label>
+
+      <label>Favorite Number:
+        <input type="number" name="contactPhone">
+      </label>
+
+      <label>Subject:
+        <select name="subject">
+          <option value="">Please Select</option>
+          <option value="job">Job Offer</option>
+          <option value="feedback">Site Feedback</option>
+          <option value="misc">Misc.</option>
+          <option value="secret">It's Secret...</option>
+        </select>
+      </label>
+
+      <label>Message:
+        <textarea name="contactMessage" rows="8" cols="80" placeholder="Write your message here..."></textarea>
+      </label>
+
+      <fieldset>
+        <legend>Are you having a good day/night?</legend>
+        <label class="inline">Yes!
+          <input type="radio" name="special" value="yes">
+        </label>
+        <label class="inline">No
+          <input type="radio" name="special" value="no">
+        </label>
+      </fieldset>
+
+      <label>Secret Code:
+        <input type="password" name="secretCode">
+      </label>
+
+      <input type="submit" value="Get In Touch!">
+    </form>
+  </section>
+
+</body>
+
+</html>
